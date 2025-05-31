@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id ='about' className='about'>
     <div className='about-title'>
-      <h1>About me</h1>
+      <h1>About Me</h1>
       {/* <img src={theme_pattern} alt="" /> */}
     </div>
     <div className="about-sections">
@@ -22,9 +22,14 @@ const About = () => {
 
             </div>
             <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}}/></div>
-                <div className="about-skill"><p>JavaScript</p><hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>React JS</p><hr style={{width:"60%"}}/></div>
+                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"80%"}}/></div>
+                <div className="about-skill"><p>JavaScript</p><hr style={{width:"70%"}}/></div>
+                <div className="about-skill"><p>React JS</p><hr style={{width:"65%"}}/></div>
+                <div className="about-skill"><p>DSA</p><hr style={{width:"65%"}}/></div>
+                <div className="about-skill"><p>MongoDB</p><hr style={{width:"60%"}}/></div>
+                <div className="about-skill"><p>Node JS</p><hr style={{width:"50%"}}/></div>
+
+
 
             </div>
         </div>

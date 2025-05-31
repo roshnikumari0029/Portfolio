@@ -30,7 +30,8 @@
     gap: 80px;
 }
 .about-left img{
-    width: 330px;
+    width: 400px;
+    border-radius: 20px;
     
 }
 .about-right{
