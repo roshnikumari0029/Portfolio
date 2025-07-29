@@ -1,11 +1,24 @@
 /* Skills.css */
 .skills-wrapper {
-  /* background-color: #1e1e1e; */
-  padding: 60px 20px;
-  /* min-height: 100vh; */
   margin:80px 150px ;
+  padding: 60px 20px;
   text-align: center;
   color: white;
+}
+.skills-title{
+  position: relative;
+}
+.skills-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.skills-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 250px;
+    z-index: -1;
 }
 
 .section-title {
@@ -17,6 +30,7 @@
 }
 
 .skills-container {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -54,6 +68,35 @@
   font-weight: 500;
   color: #fff;
   margin-bottom: 10px;
- 
   font-family: 'Segoe UI', sans-serif;
+}
+
+
+@media (max-width: 765px) {
+  .skills-wrapper {
+    margin: 40px 20px;
+    padding: 40px 10px;
+  }
+     .skills-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .skills-title img{
+        width: 130px;
+        margin-right: 120px;
+    }
+
+  .skill-box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .skill-icon {
+    font-size: 2rem;
+  }
+
+  .skill-name {
+    font-size: 16px;
+  }
 }

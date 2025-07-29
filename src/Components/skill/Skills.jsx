@@ -1,5 +1,7 @@
 // Skills.js
 import React from 'react';
+import theme_pattern from '../../assets/theme_pattern.svg'
+
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact,
   FaNodeJs, FaCuttlefish, FaPython
@@ -24,7 +26,10 @@ const skills = [
 const Skills = () => {
   return (
     <div id='skill' className="skills-wrapper">
-      <h1 className="section-title">My Skills</h1>
+    <div className="skills-title">
+          <h1>My Skills</h1>
+        <img src={theme_pattern}alt="" />
+    </div>
       <div className="skills-container">
         {skills.map((skill, index) => (
           <div className="skill-box" key={index}>
